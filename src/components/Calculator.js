@@ -11,7 +11,6 @@ export function Calculator(props) {
     return (
         <>
             <Container>
-                <p style={{ position: 'absolute', top: 0 }}>{JSON.stringify(state, null, 2)}</p>
                 <Display id="display">
                     <DisplayResult>{prevOpe}</DisplayResult>
                     {calc}
